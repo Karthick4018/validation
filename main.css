@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frm{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to right,aqua,white );
+    border-radius: 15px;
+    border: 2px solid orange;
+    box-shadow: 10px 10px 5px #aaaaaa;
+
+}
+#ff{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    background: linear-gradient(to bottom right,red,white);
+}
+#ff h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: cursive;
+}
