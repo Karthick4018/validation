@@ -67,6 +67,7 @@ function validate(){
         document.getElementById("cty").style.border="2px solid red";
         return false;
     }
+    
     else if(e.checked==false&&i.checked==false&&o.checked==false)
     {
         window.alert("vote");
@@ -83,4 +84,41 @@ function validate(){
     else{
         return true;
     }
+}
+function colorchange(){
+    document.getElementById("n1").style.border="2px solid gray";
+    return false;
+}
+function colorchange1(){
+    document.getElementById("rgg").style.border="2px solid gray";
+    return false;
+}
+function colorchange2()
+{
+    document.getElementById("ps").style.border="2px solid gray";
+    return false;
+
+}
+function colorchange3(){
+    document.getElementById("num").style.border="2px solid gray";
+    return false;
+
+}
+function colorchange4(){
+    document.getElementById("em").style.border="2px solid gray";
+    return false;
+
+}
+function colorchange5()
+{
+    document.getElementById("dt").style.border="2px solid gray";
+    return false;
+}
+function colorchange6(){
+    document.getElementById("cty").style.border="2px solid gray";
+    return false;
+}
+function colorchange7(){
+    document.getElementById("cmm").style.border="2px solid gray";
+    return false;
 }

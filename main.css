@@ -25,10 +25,14 @@
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    background: linear-gradient(to bottom right,red,white);
+    background: linear-gradient(to bottom, gray,white );
 }
 #ff h1{
     font-size: 50px;
     font-weight: 700;
     font-family: cursive;
+}
+form input{
+    padding: 3px;
+    border-radius: 10px;
 }

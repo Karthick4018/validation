@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section id="ff">
+        <div class="logo"><h1>FILL THE FORM</h1></div>
+    <form name="forms" action="form.php" method="post">
+        <div class="frm">
+        <div class="nn">
+        <label for="name">NAME:</label>
+        <input onclick="colorchange()" type="text" name="name" id="n1" placeholder="enter name" >
+    </div>
+    <div class="regno">
+        <label for="regno">REGNO:</label>
+        <input onclick="colorchange1()" type="number" name="regno" id="rgg" placeholder="enter reg no">
+    </div>
+    <div class="pass">
+        <label for="password">PASSWORD:</label>
+        <input onclick="colorchange2()" type="password" name="password" id="ps" placeholder="enter password">
+    </div>
+    <div class="phone">
+        <label for="phoneno">PHONE:</label>
+        <input onclick="colorchange3()" type="tel" name="phoneno" id="num" placeholder="enter number">
+    </div>
+    <div class="email">
+        <label for="email">EMAIL:</label>
+        <input onclick="colorchange4()" type="email" name="email" id="em" placeholder="enter email">
+    </div>
+    <div class="dob">
+        <label for="dob">DOB:</label>
+        <input onclick="colorchange5()" type="datetime-local" id="dt" name="dob">
+    </div>
+    <div class="gen">
+        <input type="checkbox" name="gender" id="esw" value="male">
+        <label for="gender">MALE</label>
+        <input type="checkbox" name="gender" id="tsw" value="female">
+        <label for="gender">FEMALE</label>
+    </div>
+    <div class="city">
+        <label for="city">CITY:</label>
+        <select name="city" id="cty" onclick="colorchange6()">
+            <option value="default">select-city</option>
+            <option value="chennai">CHENNAI</option>
+            <option value="bangalore">BANGALORE</option>
+            <option value="mumbai">MUMBAI</option>
+            <option value="delhi">DELHI</option>
+        </select>
+    </div>
+    <div class="rb">
+        <label for=" vote">VOTE</label>
+        <input type="radio" name="votes" id="rbtn1" value="rahul">RAHUL
+        <input type="radio" name="votes" id="rbtn2" value="modi">MODI
+        <input type="radio" name="votes" id="rbtn3" value="singh">SINGH
+        <div class="pa"><p id="message"></p></div>
+    </div>
+    <div class="comments">
+        <textarea onclick="colorchange7()" name="comments" id="cmm" cols="30" rows="10" placeholder="leave your comments"></textarea>
+    </div>
+    <div class="btn">
+        <input onclick="return validate()" type="submit" value="submit">
+    </div>
+        </div>
+    </form>
+</section>
+    <script src="valid.js"></script>
+    
+</body>
+</html>
