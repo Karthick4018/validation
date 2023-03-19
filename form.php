@@ -20,4 +20,4 @@ else
 {
     echo"failed";
 }
-echo'<center><button><a href="form.html">go back</a></button></center>';
+echo'<center><button><a href="index.html">go back</a></button></center>';
